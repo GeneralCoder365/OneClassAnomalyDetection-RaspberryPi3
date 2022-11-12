@@ -6,7 +6,7 @@ import numpy as np
 import argparse
 from sklearn.neighbors import LocalOutlierFactor
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.externals import joblib
+import joblib
 from keras.models import model_from_json
 from keras import backend as K
 
